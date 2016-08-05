@@ -36,9 +36,6 @@ Pod::Spec.new do |s|
     'gujemsiossdk' => ['Pod/Assets/*.xml', 'Pod/Assets/*.png']
   }
 
-  s.vendored_frameworks = 'Pod/Assets/TeadsSDK.framework'
-  s.resource = "Pod/Assets/TeadsSDKResources.bundle"
-
   s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'CoreMedia', 'UIKit', 'AVFoundation', 'AdSupport', 'StoreKit', 'CoreMotion', 'CoreLocation', 'CoreTelephony', 'MediaPlayer', 'SystemConfiguration'
   s.libraries = 'xml2'
